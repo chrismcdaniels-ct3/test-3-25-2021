@@ -2,4 +2,11 @@
 # Adam wants punctuation at the end of the message
 
 
-print("Sweet welcome message?")
+def printWelcomeMessage(message):
+    print("************************************")
+    print(message)
+    print("************************************")
+
+
+
+printWelcomeMessage("Sweet welcome message?")
